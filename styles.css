@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    
+}
+
+button {
+    padding: 10px 20px;
+    background-color: lightgray;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightblue;
+
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#gallery img {
+    width: 150px;
+    transition: transform 0.3s;
+}
+
+#gallery img:hover {
+    transform: scale(1.2);
+}
+#userForm {
+    display: flex;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 400px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;   
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+
+}
